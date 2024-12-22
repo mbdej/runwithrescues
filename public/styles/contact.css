@@ -1,0 +1,72 @@
+main {
+    flex: 1;
+    align-items: center;
+}
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4b9cd3;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(19, 41, 75, 0.1);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #151515;
+}
+
+#checkboxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+textarea {
+    width: 450px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #151515;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #13294b;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #13294b;
+}
