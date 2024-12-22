@@ -1,5 +1,4 @@
 main {
-    flex: 1;
     align-items: center;
 }
 
@@ -37,6 +36,23 @@ input[type="email"] {
     border: none;
     background-color: #ffffff;
     color: #151515;
+}
+
+#card-cvv {
+    width: 100px;
+}
+
+select {
+    width: 60px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #151515;
+}
+
+#zip {
+    width: 100px;
 }
 
 #checkboxes {
