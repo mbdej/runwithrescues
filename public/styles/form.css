@@ -38,11 +38,20 @@ input[type="email"] {
     color: #151515;
 }
 
+#gender, #running-buddy {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #151515;
+}
+
 #card-cvv {
     width: 100px;
 }
 
-select {
+#state {
     width: 60px;
     padding: 10px;
     border-radius: 5px;
