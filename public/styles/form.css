@@ -95,3 +95,9 @@ button[type="submit"]:hover {
     background-color: #ffffff;
     color: #13294b;
 }
+
+@media (max-width: 510px) {
+    .form-row {
+        flex-direction: column;
+    }
+}

@@ -1,3 +1,22 @@
+#welcome-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 100px;
+}
+
+#welcome-section h1 {
+    font-size: 64px;
+}
+
+#logo {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 #slideshow-section {
     height: 400px;
     overflow: hidden;
@@ -82,4 +101,16 @@
 
 #contact-link:hover {
     background-color: #13294b;
+}
+
+@media (max-width: 1000px) {
+    #welcome-section {
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    #welcome-section {
+        flex-direction: column;
+    }
 }
